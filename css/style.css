@@ -1,0 +1,305 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	background-color: #121B2A;
+	box-shadow: 0px 3px 2px black;
+}
+.container{
+	width: 80%;
+	margin: 0 auto; 
+	overflow: hidden;
+}
+.logo{
+	margin-top: 5px;
+	width: 18%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 75%;
+	float: right;
+	margin-top: 35px;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 0px 12px;
+	display: block;
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+	transition: .5s;
+
+}
+.menu ul li a:hover {
+	color:#0077BE;
+}
+.menu ul li:last-child a{
+	float: right;
+} 
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top: 2px;
+}
+.banner_content{
+	width: 50%;
+	margin-top: 200px;
+	margin-bottom: 50px;
+}
+.banner_content h2{
+	font-weight: 400;
+	font-size: 30px;
+	color: white;
+	/*letter-spacing: ;
+	word-spacing: ;
+	line-height: ;*/
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.banner_content h1{
+	font-size: 34px;
+	color: #0075B8;
+	margin: 0 0;
+}
+.banner_content p{
+	font-size: 16px;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 0px;
+
+}
+.banner_content button{
+	padding: 0px;
+	border: none;
+	margin: 30px 0;
+}
+/*banner end*/
+/*service start*/
+.service{;
+	background-color: #121B2C;
+	padding: 30px  0 20px;
+}
+.single{
+	width: 29%;
+	padding: 18px;
+	float: left;
+	border-right: 1px solid white;
+}
+.single:last-child{
+	border-right: none;
+}
+.top{
+	overflow: hidden;
+}
+.icon{
+	width: 23%;
+	float: left;
+}
+.icon img{
+	width: 100%
+}
+.content{
+	width: 65%;
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+}
+.content h2{
+	font-weight: 400;
+	font-size: 25px;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.content h1{
+	font-size: 26px;
+	color: #0075B8;
+	margin: 0 0;
+}
+.bottom{
+
+}
+#p1{
+	font-size: 16px;
+	color: #fff;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+/*service end*/
+/*contact start*/
+.contact{
+	background-color: #040811;
+	padding: 30px  0 20px;
+}
+.address{
+	width: 29%;
+	padding: 18px;
+	float: left;
+	overflow: hidden;
+}
+.heading{
+}
+.details{
+}
+.address h1{
+	font-weight: 400;
+	font-size: 25;
+	color: #0075B8;
+}
+.address h1 span{
+	color: #fff;
+}
+.contact pre{
+	color: #fff;
+	display: inline;
+}
+.customers{
+	width: 29%;
+	padding: 18px;
+	float: left;
+}
+.speech-bubble {
+	position: relative;
+	background: #0C1019;
+	border-radius: .4em;
+	padding: 15px;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 23px solid transparent;
+	border-top-color: #0C1019;
+	border-bottom: 0px;
+	border-left: 0px;
+	margin-left: 65.5px;
+	margin-bottom: -20px;
+}
+.speech-bubble h1{
+	font-weight: 400;
+	font-size: 25;
+	color: #0075B8;
+}
+.speech-bubble h1 span{
+	color: #fff;
+}
+.contact p{
+	color: #fff;
+	display: inline;
+}
+.website{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.website p{
+	color: #fff;
+}
+.website a{
+	text-decoration: none;
+	color: white;
+}
+
+.mobile{
+	width: 29%;
+	padding: 18px;
+	float: left;
+}
+.outlook{
+	width: 40%;
+	float: left;
+}
+.apple{
+	width: 55%;
+	float: right;
+	margin-top: 0;
+}
+.apple h2{
+	font-weight: 400;
+	font-size: 25px;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.apple h1{
+	font-size: 26px;
+	color: #0075B8;
+	margin: 0 0;
+}
+.apple img{
+	margin-top: 20px;
+}
+/*contact end*/
+/*footer start*/
+footer{
+	background-color: #121B2C;
+}
+.menu1{
+	width: 55%;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 50px;
+
+}
+.menu1 ul{
+	list-style: none;
+}
+.menu1 ul li{
+	float: left;
+}
+.menu1 ul li a{
+	text-decoration: none;
+	padding: 0px 12px;
+	display: block;
+	color: white;
+	font-size: 14px;
+	font-weight: 300;
+	float: left;
+	border-right: 1px solid white;
+}
+.menu1 ul li:nth-child(1) a{
+	padding-left: 0px;
+	margin-left: 0px;
+}
+.menu1 ul li:last-child a{
+	border-right: none;
+}
+.menu1 p{
+	margin-left: 35px;
+	color: #fff;
+	font-weight: 300;
+	font-size: 14px;
+}
+.wrapper{
+	overflow: hidden;
+}
+.logo1{
+	float: left;
+	margin-left: 30px;
+	margin-top: 15px 
+}
+.logo1 img{
+	width: 80%;
+	float: right;
+	margin-left: 30px
+}
+/*footer end*/
